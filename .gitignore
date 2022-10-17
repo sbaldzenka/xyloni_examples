@@ -4,3 +4,12 @@ efinix_blink/project/work_pnr
 efinix_blink/project/work_pt
 efinix_blink/project/work_syn
 efinix_blink/project/.lock
+efinix_blink/project/efinix_blink.vdb
+
+efinix_osc/project/ip
+efinix_osc/project/outflow
+efinix_osc/project/work_pnr
+efinix_osc/project/work_pt
+efinix_osc/project/work_syn
+efinix_osc/project/.lock
+efinix_osc/project/efinix_osc.vdb

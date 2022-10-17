@@ -1,0 +1,1 @@
+create_clock -period 100000 [get_ports {osc_clk}]
