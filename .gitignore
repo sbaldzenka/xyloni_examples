@@ -13,3 +13,11 @@ efinix_osc/project/work_pt
 efinix_osc/project/work_syn
 efinix_osc/project/.lock
 efinix_osc/project/efinix_osc.vdb
+
+efinix_sapphire_soc_test/project/outflow
+efinix_sapphire_soc_test/project/work_pnr
+efinix_sapphire_soc_test/project/work_pt
+efinix_sapphire_soc_test/project/work_syn
+efinix_sapphire_soc_test/project/.lock
+efinix_sapphire_soc_test/project/efinix_sapphire_soc_test.vdb
+efinix_sapphire_soc_test/project/efinix_sapphire_soc_test.peri.xml

@@ -1,0 +1,16 @@
+eclipse.preferences.version=1
+gdb.client.commands=set mem inaccessible-by-default off\nset arch riscv\:rv32\nset remotetimeout 250
+gdb.client.doStart=true
+gdb.client.executable=${eclipse_home}/../toolchain/bin/riscv-none-embed-gdb
+gdb.client.other=
+gdb.openocd.doDebugInRam=true
+gdb.openocd.doInitialReset=true
+gdb.openocd.doPreRunReset=true
+gdb.openocd.enableSemihosting=true
+gdb.openocd.init.other=
+gdb.openocd.initialReset.type=init
+gdb.openocd.preRun.other=
+gdb.openocd.preRunReset.type=halt
+gdb.server.doStart=true
+gdb.server.executable=${eclipse_home}/../openocd/bin/openocd
+gdb.server.other=-c 'set bsp_loc {/media/sbaldzenka/hdd_250Gb/current_projects/efinix_sapphire_soc_test/project/embedded_sw/sapphire_mcu}'\r\n-f '/media/sbaldzenka/hdd_250Gb/current_projects/efinix_sapphire_soc_test/project/embedded_sw/sapphire_mcu/bsp/efinix/EfxSapphireSoc/openocd/ftdi.cfg'\r\n-f '/media/sbaldzenka/hdd_250Gb/current_projects/efinix_sapphire_soc_test/project/embedded_sw/sapphire_mcu/bsp/efinix/EfxSapphireSoc/openocd/debug.cfg'

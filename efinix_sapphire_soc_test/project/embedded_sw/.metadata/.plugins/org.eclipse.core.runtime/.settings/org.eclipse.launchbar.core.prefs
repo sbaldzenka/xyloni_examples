@@ -1,0 +1,11 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
+activeLaunchTarget=null\:---
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Xyloni_SelfTest_ti,org.eclipse.launchbar.core.descriptorType.default\:Xyloni_SelfTest_trion,org.eclipse.launchbar.core.descriptorType.default\:leds_blinking_ti,org.eclipse.launchbar.core.descriptorType.default\:leds_blinking_trion
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Xyloni_SelfTest_ti/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Xyloni_SelfTest_ti/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Xyloni_SelfTest_trion/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:gpioDemo_ti/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:gpioDemo_ti/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

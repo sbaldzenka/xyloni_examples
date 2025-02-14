@@ -1,0 +1,6 @@
+22:33:21 **** Incremental Build of configuration Default for project leds_blinking ****
+make all 
+make: Nothing to be done for 'all'.
+
+22:33:21 Build Finished. 0 errors, 0 warnings. (took 282ms)
+

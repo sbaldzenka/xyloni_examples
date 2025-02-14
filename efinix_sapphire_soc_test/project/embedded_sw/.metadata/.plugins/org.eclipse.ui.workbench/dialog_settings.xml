@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="com.ashling.riscfree.debug.efinix.importwizard.ui.examplesImport.ImportBSPWizard"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="com.ashling.riscfree.debug.efinix.ui.samples.importWizards.sampleCategory"/>
+		</list>
+	</section>
+</section>

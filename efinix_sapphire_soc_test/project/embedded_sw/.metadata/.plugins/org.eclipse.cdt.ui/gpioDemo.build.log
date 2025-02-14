@@ -1,0 +1,16 @@
+21:50:53 **** Build of configuration Default for project gpioDemo ****
+make all 
+CC src/main.c
+CC ../common/start.S
+CC ../common/trap.S
+LD gpioDemo
+Memory region         Used Size  Region Size  %age Used
+             ram:       21360 B         4 KB    521.48%
+/home/sbaldzenka/efinity/efinity-riscv-ide-2024.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/bin/ld: build/gpioDemo.elf section `.text' will not fit in region `ram'
+/home/sbaldzenka/efinity/efinity-riscv-ide-2024.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/bin/ld: region `ram' overflowed by 17264 bytes
+collect2: error: ld returned 1 exit status
+make: *** [../common/standalone.mk:31: build/gpioDemo.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+21:50:54 Build Failed. 3 errors, 0 warnings. (took 904ms)
+

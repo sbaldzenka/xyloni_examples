@@ -1,0 +1,283 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/sbaldzenka/efinity/efinity-riscv-ide-2024.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32/libc.a(lib_a-init.o)
+                              build/obj_files/start.o (__libc_init_array)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0xc build/obj_files/leds_blinking.o
+ .group         0x0000000000000000        0xc build/obj_files/leds_blinking.o
+ .group         0x0000000000000000        0xc build/obj_files/leds_blinking.o
+ .group         0x0000000000000000        0xc build/obj_files/leds_blinking.o
+ .group         0x0000000000000000        0xc build/obj_files/leds_blinking.o
+ .group         0x0000000000000000        0xc build/obj_files/leds_blinking.o
+ .group         0x0000000000000000        0xc build/obj_files/leds_blinking.o
+ .group         0x0000000000000000        0xc build/obj_files/leds_blinking.o
+ .group         0x0000000000000000        0xc build/obj_files/leds_blinking.o
+ .group         0x0000000000000000        0xc build/obj_files/leds_blinking.o
+ .group         0x0000000000000000        0xc build/obj_files/leds_blinking.o
+ .group         0x0000000000000000        0xc build/obj_files/leds_blinking.o
+ .group         0x0000000000000000        0xc build/obj_files/leds_blinking.o
+ .group         0x0000000000000000        0xc build/obj_files/leds_blinking.o
+ .group         0x0000000000000000        0xc build/obj_files/leds_blinking.o
+ .group         0x0000000000000000        0xc build/obj_files/leds_blinking.o
+ .group         0x0000000000000000        0xc build/obj_files/leds_blinking.o
+ .group         0x0000000000000000        0xc build/obj_files/leds_blinking.o
+ .group         0x0000000000000000        0xc build/obj_files/leds_blinking.o
+ .group         0x0000000000000000        0xc build/obj_files/leds_blinking.o
+ .group         0x0000000000000000        0xc build/obj_files/leds_blinking.o
+ .group         0x0000000000000000        0xc build/obj_files/leds_blinking.o
+ .group         0x0000000000000000        0xc build/obj_files/leds_blinking.o
+ .group         0x0000000000000000        0xc build/obj_files/leds_blinking.o
+ .group         0x0000000000000000        0xc build/obj_files/leds_blinking.o
+ .group         0x0000000000000000        0xc build/obj_files/leds_blinking.o
+ .group         0x0000000000000000        0xc build/obj_files/leds_blinking.o
+ .group         0x0000000000000000        0xc build/obj_files/leds_blinking.o
+ .group         0x0000000000000000        0xc build/obj_files/leds_blinking.o
+ .group         0x0000000000000000        0xc build/obj_files/leds_blinking.o
+ .group         0x0000000000000000        0xc build/obj_files/leds_blinking.o
+ .group         0x0000000000000000        0xc build/obj_files/leds_blinking.o
+ .group         0x0000000000000000        0xc build/obj_files/leds_blinking.o
+ .group         0x0000000000000000        0xc build/obj_files/leds_blinking.o
+ .group         0x0000000000000000        0xc build/obj_files/leds_blinking.o
+ .group         0x0000000000000000        0xc build/obj_files/leds_blinking.o
+ .group         0x0000000000000000        0xc build/obj_files/leds_blinking.o
+ .group         0x0000000000000000        0xc build/obj_files/leds_blinking.o
+ .group         0x0000000000000000        0xc build/obj_files/leds_blinking.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ram              0x00000000f9000000 0x0000000000001000 axwl !r
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD build/obj_files/leds_blinking.o
+LOAD build/obj_files/start.o
+LOAD /home/sbaldzenka/efinity/efinity-riscv-ide-2024.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32/libc.a
+LOAD /home/sbaldzenka/efinity/efinity-riscv-ide-2024.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/rv32im/ilp32/libgcc.a
+                0x0000000000000200                __stack_size = DEFINED (__stack_size)?__stack_size:0x200
+
+.init           0x00000000f9000000       0x58
+ *(SORT_NONE(.init))
+ .init          0x00000000f9000000       0x58 build/obj_files/start.o
+                0x00000000f9000000                _start
+                0x00000000f9000054                _init
+
+.text           0x00000000f9000058      0x118
+ *(.text.Proc_1)
+ *(.text.Proc_2)
+ *(.text.Proc_3)
+ *(.text.Proc_4)
+ *(.text.Proc_5)
+ *(.text.Proc_6)
+ *(.text.Proc_7)
+ *(.text.Proc_8)
+ *(.text.Func_1)
+ *(.text.Func_2)
+ *(.text.Func_3)
+ *(.text.strcpy)
+ *libc.a:*(.text .text.*)
+ .text          0x00000000f9000058        0x0 /home/sbaldzenka/efinity/efinity-riscv-ide-2024.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32/libc.a(lib_a-init.o)
+ .text.__libc_init_array
+                0x00000000f9000058       0x84 /home/sbaldzenka/efinity/efinity-riscv-ide-2024.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32/libc.a(lib_a-init.o)
+                0x00000000f9000058                __libc_init_array
+ *(.text.main)
+ *(.text.unlikely .text.unlikely.*)
+ *(.text.startup .text.startup.*)
+ *(.text .text.*)
+ .text          0x00000000f90000dc       0x94 build/obj_files/leds_blinking.o
+                0x00000000f9000110                main
+ .text          0x00000000f9000170        0x0 build/obj_files/start.o
+ *(.gnu.linkonce.t.*)
+ *(.note.gnu.build-id)
+
+.rela.dyn       0x00000000f9000170        0x0
+ .rela.init     0x00000000f9000170        0x0 build/obj_files/leds_blinking.o
+ .rela.text.__libc_init_array
+                0x00000000f9000170        0x0 build/obj_files/leds_blinking.o
+
+.fini
+ *(SORT_NONE(.fini))
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+                0x00000000f9000170                . = ALIGN (0x4)
+
+.preinit_array  0x00000000f9000170        0x0
+                0x00000000f9000170                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                0x00000000f9000170                PROVIDE (__preinit_array_end = .)
+
+.init_array     0x00000000f9000170        0x0
+                0x00000000f9000170                PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+                0x00000000f9000170                PROVIDE (__init_array_end = .)
+
+.fini_array     0x00000000f9000170        0x0
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+                [!provide]                        PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.lalign         0x00000000f9000170        0x0
+                0x00000000f9000170                PROVIDE (_data_lma = .)
+
+.dalign         0x00000000f9000170        0x0
+                0x00000000f9000170                PROVIDE (_data = .)
+
+.data           0x00000000f9000170        0xa
+ *(.rdata)
+ *(.rodata .rodata.*)
+ *(.gnu.linkonce.r.*)
+ *(.data .data.*)
+ .data          0x00000000f9000170        0x0 build/obj_files/leds_blinking.o
+ .data          0x00000000f9000170        0x0 build/obj_files/start.o
+ .data          0x00000000f9000170        0x0 /home/sbaldzenka/efinity/efinity-riscv-ide-2024.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32/libc.a(lib_a-init.o)
+ *(.gnu.linkonce.d.*)
+                0x00000000f9000170                . = ALIGN (0x8)
+                0x00000000f9000960                PROVIDE (__global_pointer$ = (. + 0x7f0))
+ *(.sdata .sdata.*)
+ *(.gnu.linkonce.s.*)
+                0x00000000f9000170                . = ALIGN (0x8)
+ *(.srodata.cst16)
+ *(.srodata.cst8)
+ *(.srodata.cst4)
+ *(.srodata.cst2)
+ *(.srodata .srodata.*)
+                0x00000000f900017a                . = (. + 0xa)
+ *fill*         0x00000000f9000170        0xa 
+                0x00000000f900017c                . = ALIGN (0x4)
+                0x00000000f900017c                PROVIDE (_edata = .)
+                [!provide]                        PROVIDE (edata = .)
+                [!provide]                        PROVIDE (_fbss = .)
+                0x00000000f900017c                PROVIDE (__bss_start = .)
+
+.bss            0x00000000f900017a        0x2
+ *(.sbss*)
+ *(.gnu.linkonce.sb.*)
+ *(.bss .bss.*)
+ .bss           0x00000000f900017a        0x0 build/obj_files/leds_blinking.o
+ .bss           0x00000000f900017a        0x0 build/obj_files/start.o
+ .bss           0x00000000f900017a        0x0 /home/sbaldzenka/efinity/efinity-riscv-ide-2024.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32/libc.a(lib_a-init.o)
+ *(.gnu.linkonce.b.*)
+ *(COMMON)
+                0x00000000f900017c                . = ALIGN (0x4)
+ *fill*         0x00000000f900017a        0x2 
+                0x00000000f9000180                . = ALIGN (0x8)
+                0x00000000f9000180                PROVIDE (_end = .)
+                [!provide]                        PROVIDE (end = .)
+
+.stack          0x00000000f9000180      0x200
+                [!provide]                        PROVIDE (_heap_end = .)
+                0x0000000000000200                . = __stack_size
+ *fill*         0x00000000f9000180      0x200 
+                0x00000000f9000380                PROVIDE (_sp = .)
+                0x00000000f9000380                __freertos_irq_stack_top = .
+LOAD /home/sbaldzenka/efinity/efinity-riscv-ide-2024.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32/libm.a
+LOAD /home/sbaldzenka/efinity/efinity-riscv-ide-2024.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/rv32im/ilp32/libgcc.a
+START GROUP
+LOAD /home/sbaldzenka/efinity/efinity-riscv-ide-2024.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/rv32im/ilp32/libgcc.a
+LOAD /home/sbaldzenka/efinity/efinity-riscv-ide-2024.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32/libg.a
+LOAD /home/sbaldzenka/efinity/efinity-riscv-ide-2024.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32/libc.a
+END GROUP
+LOAD /home/sbaldzenka/efinity/efinity-riscv-ide-2024.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/rv32im/ilp32/libgcc.a
+START GROUP
+LOAD /home/sbaldzenka/efinity/efinity-riscv-ide-2024.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/rv32im/ilp32/libgcc.a
+LOAD /home/sbaldzenka/efinity/efinity-riscv-ide-2024.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32/libc.a
+LOAD /home/sbaldzenka/efinity/efinity-riscv-ide-2024.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32/libnosys.a
+END GROUP
+OUTPUT(build/leds_blinking.elf elf32-littleriscv)
+
+.debug_info     0x0000000000000000      0xc73
+ .debug_info    0x0000000000000000      0xc4d build/obj_files/leds_blinking.o
+ .debug_info    0x0000000000000c4d       0x26 build/obj_files/start.o
+
+.debug_abbrev   0x0000000000000000      0x325
+ .debug_abbrev  0x0000000000000000      0x311 build/obj_files/leds_blinking.o
+ .debug_abbrev  0x0000000000000311       0x14 build/obj_files/start.o
+
+.debug_loc      0x0000000000000000      0x177
+ .debug_loc     0x0000000000000000      0x177 build/obj_files/leds_blinking.o
+
+.debug_aranges  0x0000000000000000       0x40
+ .debug_aranges
+                0x0000000000000000       0x20 build/obj_files/leds_blinking.o
+ .debug_aranges
+                0x0000000000000020       0x20 build/obj_files/start.o
+
+.debug_macro    0x0000000000000000     0x1fad
+ .debug_macro   0x0000000000000000      0x1f9 build/obj_files/leds_blinking.o
+ .debug_macro   0x00000000000001f9      0x760 build/obj_files/leds_blinking.o
+ .debug_macro   0x0000000000000959       0x22 build/obj_files/leds_blinking.o
+ .debug_macro   0x000000000000097b       0x8e build/obj_files/leds_blinking.o
+ .debug_macro   0x0000000000000a09       0x51 build/obj_files/leds_blinking.o
+ .debug_macro   0x0000000000000a5a      0x103 build/obj_files/leds_blinking.o
+ .debug_macro   0x0000000000000b5d       0x6a build/obj_files/leds_blinking.o
+ .debug_macro   0x0000000000000bc7      0x1df build/obj_files/leds_blinking.o
+ .debug_macro   0x0000000000000da6       0xb2 build/obj_files/leds_blinking.o
+ .debug_macro   0x0000000000000e58       0xc4 build/obj_files/leds_blinking.o
+ .debug_macro   0x0000000000000f1c       0x12 build/obj_files/leds_blinking.o
+ .debug_macro   0x0000000000000f2e       0x1c build/obj_files/leds_blinking.o
+ .debug_macro   0x0000000000000f4a       0x16 build/obj_files/leds_blinking.o
+ .debug_macro   0x0000000000000f60      0x1bc build/obj_files/leds_blinking.o
+ .debug_macro   0x000000000000111c       0x16 build/obj_files/leds_blinking.o
+ .debug_macro   0x0000000000001132       0xb6 build/obj_files/leds_blinking.o
+ .debug_macro   0x00000000000011e8       0x58 build/obj_files/leds_blinking.o
+ .debug_macro   0x0000000000001240       0x19 build/obj_files/leds_blinking.o
+ .debug_macro   0x0000000000001259       0x52 build/obj_files/leds_blinking.o
+ .debug_macro   0x00000000000012ab       0x34 build/obj_files/leds_blinking.o
+ .debug_macro   0x00000000000012df       0x34 build/obj_files/leds_blinking.o
+ .debug_macro   0x0000000000001313       0x16 build/obj_files/leds_blinking.o
+ .debug_macro   0x0000000000001329      0x10e build/obj_files/leds_blinking.o
+ .debug_macro   0x0000000000001437       0x8d build/obj_files/leds_blinking.o
+ .debug_macro   0x00000000000014c4       0x16 build/obj_files/leds_blinking.o
+ .debug_macro   0x00000000000014da       0x43 build/obj_files/leds_blinking.o
+ .debug_macro   0x000000000000151d       0x34 build/obj_files/leds_blinking.o
+ .debug_macro   0x0000000000001551       0x10 build/obj_files/leds_blinking.o
+ .debug_macro   0x0000000000001561       0x52 build/obj_files/leds_blinking.o
+ .debug_macro   0x00000000000015b3      0x182 build/obj_files/leds_blinking.o
+ .debug_macro   0x0000000000001735      0x339 build/obj_files/leds_blinking.o
+ .debug_macro   0x0000000000001a6e       0x16 build/obj_files/leds_blinking.o
+ .debug_macro   0x0000000000001a84       0x29 build/obj_files/leds_blinking.o
+ .debug_macro   0x0000000000001aad      0x1a9 build/obj_files/leds_blinking.o
+ .debug_macro   0x0000000000001c56       0x16 build/obj_files/leds_blinking.o
+ .debug_macro   0x0000000000001c6c       0x35 build/obj_files/leds_blinking.o
+ .debug_macro   0x0000000000001ca1       0x22 build/obj_files/leds_blinking.o
+ .debug_macro   0x0000000000001cc3       0xbb build/obj_files/leds_blinking.o
+ .debug_macro   0x0000000000001d7e      0x201 build/obj_files/leds_blinking.o
+ .debug_macro   0x0000000000001f7f       0x2e build/obj_files/leds_blinking.o
+
+.debug_line     0x0000000000000000      0x642
+ .debug_line    0x0000000000000000      0x588 build/obj_files/leds_blinking.o
+ .debug_line    0x0000000000000588       0xba build/obj_files/start.o
+
+.debug_str      0x0000000000000000     0x89da
+ .debug_str     0x0000000000000000     0x89bc build/obj_files/leds_blinking.o
+                                       0x8d0d (size before relaxing)
+ .debug_str     0x00000000000089bc       0x1e build/obj_files/start.o
+                                         0xa8 (size before relaxing)
+
+.comment        0x0000000000000000       0x33
+ .comment       0x0000000000000000       0x33 build/obj_files/leds_blinking.o
+                                         0x34 (size before relaxing)
+
+.debug_frame    0x0000000000000000       0x78
+ .debug_frame   0x0000000000000000       0x3c build/obj_files/leds_blinking.o
+ .debug_frame   0x000000000000003c       0x3c /home/sbaldzenka/efinity/efinity-riscv-ide-2024.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32/libc.a(lib_a-init.o)

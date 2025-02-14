@@ -1,0 +1,97 @@
+!SESSION 2025-02-10 21:47:04.939 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=18.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=be_BY
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2025-02-10 21:48:02.659
+!MESSAGE MenuAdditionCacheEntry.mergeIntoModel: Invalid menu URI: com.ashling.riscfree.efinix.newproject.wizard.CreateNewEfinixProject
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-02-10 21:50:26.039
+!MESSAGE Indexed 'gpioDemo' (1 sources, 50 headers) in 1,34 sec: 1 739 declarations; 3 171 references; 0 unresolved inclusions; 5 syntax errors; 4 unresolved names (0,081 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-02-10 21:52:31.335
+!MESSAGE Indexed 'Xyloni_SelfTest' (2 sources, 53 headers) in 0,416 sec: 1 845 declarations; 3 595 references; 0 unresolved inclusions; 5 syntax errors; 31 unresolved names (0,57 %)
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2025-02-10 21:55:40.979
+!MESSAGE /home/sbaldzenka/efinity/efinity-riscv-ide-2024.2/Efinity-RISCV-IDE//../openocd/bin/openocd -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {/media/sbaldzenka/hdd_250Gb/current_projects/efinix_sapphire_soc_test/project/embedded_sw/sapphire_mcu} -f /media/sbaldzenka/hdd_250Gb/current_projects/efinix_sapphire_soc_test/project/embedded_sw/sapphire_mcu/bsp/efinix/EfxSapphireSoc/openocd/ftdi.cfg -f /media/sbaldzenka/hdd_250Gb/current_projects/efinix_sapphire_soc_test/project/embedded_sw/sapphire_mcu/bsp/efinix/EfxSapphireSoc/openocd/debug.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2025-02-10 21:55:41.826
+!MESSAGE /home/sbaldzenka/efinity/efinity-riscv-ide-2024.2/Efinity-RISCV-IDE//../toolchain/bin/riscv-none-embed-gdb --interpreter=mi2 --nx
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-02-10 22:15:43.306
+!MESSAGE Indexed 'leds_blinking' (1 sources, 0 headers) in 0,005 sec: 3 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2025-02-10 22:19:34.547
+!MESSAGE /home/sbaldzenka/efinity/efinity-riscv-ide-2024.2/Efinity-RISCV-IDE//../openocd/bin/openocd -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {/media/sbaldzenka/hdd_250Gb/current_projects/efinix_sapphire_soc_test/project/embedded_sw/sapphire_mcu} -f /media/sbaldzenka/hdd_250Gb/current_projects/efinix_sapphire_soc_test/project/embedded_sw/sapphire_mcu/bsp/efinix/EfxSapphireSoc/openocd/ftdi.cfg -f /media/sbaldzenka/hdd_250Gb/current_projects/efinix_sapphire_soc_test/project/embedded_sw/sapphire_mcu/bsp/efinix/EfxSapphireSoc/openocd/debug.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2025-02-10 22:19:35.349
+!MESSAGE /home/sbaldzenka/efinity/efinity-riscv-ide-2024.2/Efinity-RISCV-IDE//../toolchain/bin/riscv-none-embed-gdb --interpreter=mi2 --nx
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2025-02-10 22:26:37.758
+!MESSAGE /home/sbaldzenka/efinity/efinity-riscv-ide-2024.2/Efinity-RISCV-IDE//../openocd/bin/openocd -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {/media/sbaldzenka/hdd_250Gb/current_projects/efinix_sapphire_soc_test/project/embedded_sw/sapphire_mcu} -f /media/sbaldzenka/hdd_250Gb/current_projects/efinix_sapphire_soc_test/project/embedded_sw/sapphire_mcu/bsp/efinix/EfxSapphireSoc/openocd/ftdi.cfg -f /media/sbaldzenka/hdd_250Gb/current_projects/efinix_sapphire_soc_test/project/embedded_sw/sapphire_mcu/bsp/efinix/EfxSapphireSoc/openocd/debug.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2025-02-10 22:26:38.575
+!MESSAGE /home/sbaldzenka/efinity/efinity-riscv-ide-2024.2/Efinity-RISCV-IDE//../toolchain/bin/riscv-none-embed-gdb --interpreter=mi2 --nx
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2025-02-10 22:33:22.073
+!MESSAGE /home/sbaldzenka/efinity/efinity-riscv-ide-2024.2/Efinity-RISCV-IDE//../openocd/bin/openocd -c gdb_port 3333 -c telnet_port 4444 -c tcl_port 6666 -c set bsp_loc {/media/sbaldzenka/hdd_250Gb/current_projects/efinix_sapphire_soc_test/project/embedded_sw/sapphire_mcu} -f /media/sbaldzenka/hdd_250Gb/current_projects/efinix_sapphire_soc_test/project/embedded_sw/sapphire_mcu/bsp/efinix/EfxSapphireSoc/openocd/ftdi.cfg -f /media/sbaldzenka/hdd_250Gb/current_projects/efinix_sapphire_soc_test/project/embedded_sw/sapphire_mcu/bsp/efinix/EfxSapphireSoc/openocd/debug.cfg -c echo "Started by GNU MCU Eclipse"
+
+!ENTRY org.eclipse.embedcdt.debug.gdbjtag.core 4 1 2025-02-10 22:33:22.876
+!MESSAGE /home/sbaldzenka/efinity/efinity-riscv-ide-2024.2/Efinity-RISCV-IDE//../toolchain/bin/riscv-none-embed-gdb --interpreter=mi2 --nx
+
+!ENTRY org.eclipse.cdt.dsf 4 -1 2025-02-10 22:45:37.627
+!MESSAGE Invocation exception when calling a service event handler method
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.cdt.dsf.service.DsfSession.doDispatchEvent(DsfSession.java:541)
+	at org.eclipse.cdt.dsf.service.DsfSession$3.run(DsfSession.java:408)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.util.concurrent.RejectedExecutionException: Display org.eclipse.swt.widgets.Display@18eec010 is disposed
+	at org.eclipse.cdt.dsf.ui.concurrent.SimpleDisplayExecutor.execute(SimpleDisplayExecutor.java:84)
+	at org.eclipse.cdt.dsf.ui.viewmodel.AbstractVMAdapter.handleEvent(AbstractVMAdapter.java:254)
+	at org.eclipse.cdt.dsf.ui.viewmodel.datamodel.AbstractDMVMAdapter.eventDispatched(AbstractDMVMAdapter.java:102)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	... 9 more
+Caused by: org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1518)
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:930)
+	at org.eclipse.cdt.dsf.ui.concurrent.SimpleDisplayExecutor.execute(SimpleDisplayExecutor.java:81)
+	... 12 more
+Root exception:
+java.util.concurrent.RejectedExecutionException: Display org.eclipse.swt.widgets.Display@18eec010 is disposed
+	at org.eclipse.cdt.dsf.ui.concurrent.SimpleDisplayExecutor.execute(SimpleDisplayExecutor.java:84)
+	at org.eclipse.cdt.dsf.ui.viewmodel.AbstractVMAdapter.handleEvent(AbstractVMAdapter.java:254)
+	at org.eclipse.cdt.dsf.ui.viewmodel.datamodel.AbstractDMVMAdapter.eventDispatched(AbstractDMVMAdapter.java:102)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.cdt.dsf.service.DsfSession.doDispatchEvent(DsfSession.java:541)
+	at org.eclipse.cdt.dsf.service.DsfSession$3.run(DsfSession.java:408)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1518)
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:930)
+	at org.eclipse.cdt.dsf.ui.concurrent.SimpleDisplayExecutor.execute(SimpleDisplayExecutor.java:81)
+	... 12 more
+
+!ENTRY org.eclipse.core.jobs 2 2 2025-02-10 22:45:38.600
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$InputReadJob
